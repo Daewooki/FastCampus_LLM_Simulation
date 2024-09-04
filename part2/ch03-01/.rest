@@ -1,4 +1,4 @@
-### 
+###
 GET http://localhost:5000/employees
 Accept: application/json
 
@@ -14,13 +14,5 @@ Content-Type: application/json
     "team": "Backend"
 }
 
-###
-PUT http://localhost:5000/employees/3
-Content-Type: application/json
-
-{
-    "team": "AI Research"
-}
-
-###
+### 
 DELETE http://localhost:5000/employees/4
